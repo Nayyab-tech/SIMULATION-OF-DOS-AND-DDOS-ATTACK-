@@ -1,5 +1,5 @@
 DoS & DDoS Attack Simulation with Mitigation System
-Purpose
+🎯 Purpose
 
 This project demonstrates how common cyber attacks can be simulated and how a mitigation system can detect, log, and respond to them in real time.
 It is developed strictly for educational and academic purposes to help understand practical cybersecurity concepts.
@@ -67,13 +67,14 @@ Can auto-start server on launch (server-less version)
 
 Python 3.9+
 
-Windows OS recommended
+Windows OS (Recommended)
 
 📦 Required Libraries
 pip install pillow
 
 
-(Standard libraries used: socket, threading, datetime, tkinter, os, subprocess, platform)
+Standard libraries used:
+socket, threading, datetime, tkinter, os, subprocess, platform
 
 🚀 How to Run
 1️⃣ Start the Mitigator
@@ -93,11 +94,11 @@ Launch Attacker
 
 Click Scan IP
 
-Choose an attack type
+Choose an Attack Type
 
-Enter target IP
+Enter Target IP
 
-Send attack
+Send Attack
 
 Watch logs appear live in Mitigator
 
@@ -115,7 +116,7 @@ Action Taken: Action taken against attacker 192.168.1.10 ...
 
 📁 Log Files
 
-Logs are automatically saved to the Desktop
+Automatically saved to the Desktop
 
 Example filename:
 
@@ -123,7 +124,7 @@ MITIGATOR_LOG_20251230_143211.txt
 
 🧠 Learning Outcomes
 
-This project helps in understanding:
+This project strengthens understanding of:
 
 Network attacks and their impact
 
