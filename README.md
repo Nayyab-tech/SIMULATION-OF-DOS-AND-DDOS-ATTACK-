@@ -171,7 +171,7 @@ This project successfully demonstrates how cyber attacks can be simulated and ho
 
 ## 👨‍💻 **Author**
 
-**Nayyab Gul**  
+**Nayyab Gul and Laiba Naeem**  
 *Cybersecurity & Software Engineering Project*
 
 
