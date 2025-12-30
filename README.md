@@ -104,7 +104,6 @@ pip install pillow
 - 🗂️ Auto log generation
 - 📥 Downloadable reports
 - 📜 Scrollable attack history
-- ⚡ Auto-start server
 
 ---
 
