@@ -1,52 +1,45 @@
-# 🛡️ **DoS & DDoS Attack Simulation with Mitigation System**
+🛡️ DoS & DDoS Attack Simulation with Mitigation System
+1. Introduction
 
----
+The DoS & DDoS Attack Simulation with Mitigation System is a Python‑based cybersecurity project that demonstrates how different types of network attacks can be simulated and how a defensive system can detect, log, and respond to these attacks in real time.
+This project provides practical understanding of networking, multithreading, socket programming, and security monitoring.
 
-## **1. Introduction**
-
-*The DoS & DDoS Attack Simulation with Mitigation System* is a **Python-based cybersecurity project** that demonstrates how different types of network attacks can be simulated and how a defensive system can detect, log, and respond to these attacks in real time.  
-This project provides practical understanding of **networking, multithreading, socket programming, and security monitoring**.
-
----
-
-## **2. Objective**
+2. Objective
 
 The main objectives of this project are:
 
-- **To simulate common cyber attacks** such as *DoS, DDoS, SYN Flood, SQL Injection, and UDP Flood*  
-- **To design a real-time mitigation system** that detects and logs attacks  
-- **To understand client-server communication** using socket programming  
-- **To develop user-friendly GUI applications** using Tkinter  
-- **To demonstrate the use of multithreading** for concurrent operations  
+To simulate common cyber attacks such as DoS, DDoS, SYN Flood, SQL Injection, and UDP Flood
 
----
+To design a real‑time mitigation system that detects and logs attacks
 
-## **3. System Requirements**
+To understand client–server communication using socket programming
 
-### 💻 *Hardware Requirements*
+To develop user‑friendly GUI applications using Tkinter
 
-| **Component** | **Requirement** |
-|---------------|----------------|
-| Processor     | 1 GHz or faster |
-| RAM           | 2 GB minimum    |
-| Hard Disk     | 500 MB free space |
+To demonstrate the use of multithreading for concurrent operations
 
-### 🧰 *Software Requirements*
+3. System Requirements
+Hardware Requirements
+Component	Requirement
+Processor	1 GHz or faster
+RAM	2 GB minimum
+Hard Disk	500 MB free space
+Software Requirements
 
-- **Python 3.9 or higher**  
-- **Windows OS (Recommended)**  
+Python 3.9 or higher
 
-### 📦 *Required Libraries*
+Windows OS (Recommended)
+
+Required Libraries
 
 Pillow library must be installed using:
 
-```bash
 pip install pillow
+
 Standard libraries used:
 socket, threading, datetime, tkinter, os, subprocess, platform
 
 Summary of Library Roles
-
 Library	Purpose
 socket	Network communication
 threading	Parallel execution
@@ -60,7 +53,7 @@ pillow	Custom GUI graphics
 
 This project follows the Client–Server Model.
 
-Attacker (Client):
+🧨 Attacker (Client)
 
 Generates simulated attacks
 
@@ -68,7 +61,7 @@ Scans network IP addresses
 
 Provides attack control interface
 
-Mitigator (Server):
+🛡️ Mitigator (Server)
 
 Listens on port 9999
 
@@ -93,13 +86,13 @@ Mitigator logs and displays the attack
 5. Features
 🧨 Attacker Application
 
-GUI-based control panel
+GUI‑based control panel
 
 Supports multiple attack types
 
 Network IP scanner
 
-Multi-threaded ping scanning
+Multi‑threaded ping scanning
 
 Saves previous IP for reuse
 
@@ -107,7 +100,7 @@ Clean modern interface
 
 🛡️ Mitigator Application
 
-Real-time attack detection
+Real‑time attack detection
 
 Live attack monitoring
 
@@ -117,7 +110,7 @@ Downloadable reports
 
 Scrollable attack history
 
-Auto-start server option
+Auto‑start server option
 
 6. Testing
 Test Case	Expected Outcome	Result
@@ -128,16 +121,15 @@ GUI update	Logs displayed in real time	✅ Pass
 File saving	Logs saved to Desktop	✅ Pass
 Multithreading	Stable concurrent operation	✅ Pass
 7. Sample Attack Log
+
 NEW ATTACK DETECTED!
---------------------------------------------------
+
 Attack Type: DDoS
 Attacker IP: 192.168.1.10
 Attacker Port: 53241
 Time of Attack: 14:32:11
 Day of Attack: Monday, 30 December 2025
---------------------------------------------------
 Action Taken: Action taken against attacker 192.168.1.10 ...
---------------------------------------------------
 
 8. Learning Outcomes
 
@@ -145,7 +137,7 @@ This project helps in understanding:
 
 Network attack behavior
 
-Client-server communication
+Client–server communication
 
 Socket programming
 
@@ -163,11 +155,11 @@ Authentication system
 
 Encrypted communication
 
-Real-time traffic analysis
+Real‑time traffic analysis
 
-AI-based detection system
+AI‑based detection system
 
-Web-based monitoring dashboard
+Web‑based monitoring dashboard
 
 10. Conclusion
 
