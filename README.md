@@ -1,108 +1,130 @@
-DoS & DDoS Attack Simulation with Mitigation System
-🎯 Purpose
+# 🛡️ **DoS & DDoS Attack Simulation with Mitigation System**
 
-This project demonstrates how common cyber attacks can be simulated and how a mitigation system can detect, log, and respond to them in real time.
-It is developed strictly for educational and academic purposes to help understand practical cybersecurity concepts.
+---
 
-📌 Project Overview
+## **1. Introduction**
 
-This project consists of two major components:
+The **DoS & DDoS Attack Simulation with Mitigation System** is a Python-based cybersecurity project that demonstrates how different types of network attacks can be simulated and how a defensive system can detect, log, and respond to these attacks in real time.  
+This project provides practical understanding of networking, multithreading, socket programming, and security monitoring.
 
-Component	Description
-ATTACKER	Simulates multiple types of cyber attacks and performs LAN device scanning
-MITIGATOR	Acts as a defensive system that detects attacks, records detailed logs, and generates downloadable reports
+---
 
-Both components are built using Python, Tkinter GUI, Socket Programming, Multithreading, and File Logging.
+## **2. Objective**
 
-🧩 Features
+The main objectives of this project are:
+
+- To simulate common cyber attacks such as **DoS, DDoS, SYN Flood, SQL Injection, and UDP Flood**.
+- To design a **real-time mitigation system** that detects and logs attacks.
+- To understand **client-server communication** using socket programming.
+- To develop user-friendly **GUI applications** using Tkinter.
+- To demonstrate the use of **multithreading** for concurrent operations.
+
+---
+
+## **3. System Requirements**
+
+### 💻 **Hardware Requirements**
+
+| Component | Requirement |
+|---------|------------|
+| Processor | 1 GHz or faster |
+| RAM | 2 GB minimum |
+| Hard Disk | 500 MB free space |
+
+### 🧰 **Software Requirements**
+
+- **Python 3.9 or higher**
+- **Windows OS (Recommended)**
+
+### 📦 **Required Libraries**
+
+```bash
+pip install pillow
+Standard Libraries Used:
+socket, threading, datetime, tkinter, os, subprocess, platform
+
+📚 Summary of Library Roles
+Library	Purpose
+socket	Network communication
+threading	Parallel execution
+tkinter	GUI development
+datetime	Time & date logging
+os	File management
+subprocess	IP scanning
+pillow	Custom GUI graphics
+4. System Design
+4.1 Architecture
+
+Client–Server Model
+
+Attacker (Client):
+
+Generates simulated attacks
+
+Scans network IP addresses
+
+Provides attack control interface
+
+Mitigator (Server):
+
+Listens on port 9999
+
+Detects incoming attacks
+
+Logs and displays attack information
+
+Generates downloadable reports
+
+4.2 Workflow
+
+Start the Mitigator server
+
+Attacker scans the local network
+
+User selects attack type
+
+Attacker sends attack signal
+
+Mitigator logs and displays the attack
+
+5. Features
 🧨 Attacker Application
 
 GUI-based control panel
 
-Attack types supported:
+Supports multiple attack types
 
-DoS
-
-DDoS
-
-SYN Flood
-
-SQL Injection
-
-UDP Flood
-
-Network IP Scanner
+Network IP scanner
 
 Multi-threaded ping scanning
 
-Stores previous target IP for quick reuse
+Saves previous IP for reuse
 
-Clean modern UI with rounded buttons
+Clean modern interface
 
 🛡️ Mitigator Application
 
-Real-time server listening on port 9999
+Real-time attack detection
 
-Automatically detects incoming attacks
+Live attack monitoring
 
-Displays:
+Automatic log file generation
 
-Attack type
+Downloadable reports
 
-Attacker IP & port
+Scrollable attack history
 
-Date & time
+Auto-start server option
 
-Action taken
-
-Saves logs to Desktop
-
-Downloadable log reports
-
-Scrollable GUI log monitor
-
-Can auto-start server on launch (server-less version)
-
-🖥️ System Requirements
-
-Python 3.9+
-
-Windows OS (Recommended)
-
-📦 Required Libraries
-pip install pillow
-
-
-Standard libraries used:
-socket, threading, datetime, tkinter, os, subprocess, platform
-
-🚀 How to Run
-1️⃣ Start the Mitigator
-python mitigator.py
-
-
-If using WITHOUT SERVER version, the server starts automatically.
-
-2️⃣ Start the Attacker
-python attacker.py
-
-3️⃣ Simulation Flow
-
-Launch Mitigator
-
-Launch Attacker
-
-Click Scan IP
-
-Choose an Attack Type
-
-Enter Target IP
-
-Send Attack
-
-Watch logs appear live in Mitigator
-
-🧪 Attack Log Example
+6. Testing
+Test Case	Expected Outcome	Result
+Server startup	Server starts correctly	✅ Pass
+Attack transmission	Attack delivered to Mitigator	✅ Pass
+Log generation	Logs recorded properly	✅ Pass
+GUI update	Logs displayed in real time	✅ Pass
+File saving	Logs saved to Desktop	✅ Pass
+Multithreading	Stable concurrent operation	✅ Pass
+7. Sample Attack Log
 NEW ATTACK DETECTED!
 --------------------------------------------------
 Attack Type: DDoS
@@ -114,36 +136,44 @@ Day of Attack: Monday, 30 December 2025
 Action Taken: Action taken against attacker 192.168.1.10 ...
 --------------------------------------------------
 
-📁 Log Files
+8. Learning Outcomes
 
-Automatically saved to the Desktop
+This project helps in understanding:
 
-Example filename:
-
-MITIGATOR_LOG_20251230_143211.txt
-
-🧠 Learning Outcomes
-
-This project strengthens understanding of:
-
-Network attacks and their impact
+Network attack behavior
 
 Client-server communication
 
 Socket programming
 
-Multithreading
+Multithreading concepts
 
 GUI development
 
-Logging & reporting systems
+Logging and monitoring systems
 
-Cybersecurity simulation and defense mechanisms
+Cybersecurity defense mechanisms
+
+9. Future Enhancements
+
+🔐 Authentication system
+
+🔒 Encrypted communication
+
+📊 Real-time traffic analysis
+
+🧠 AI-based detection system
+
+🌐 Web-based monitoring dashboard
+
+10. Conclusion
+
+This project demonstrates how network attacks can be simulated and how an effective mitigation system can detect, log, and respond to them. It serves as a complete academic cybersecurity project integrating networking, security, and software development.
 
 ⚠️ Disclaimer
 
-This software is created only for academic and learning purposes.
-It must not be used on real networks or systems without proper authorization.
+This project is strictly for academic and educational purposes.
+It must not be used on real networks without proper authorization.
 
 👨‍💻 Author
 
