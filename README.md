@@ -160,19 +160,9 @@ Action: Attacker blocked and logged.
 
 This project successfully demonstrates how cyber attacks can be simulated and how an effective mitigation system can detect, log, and neutralize malicious activity in real time — making it a strong academic cybersecurity solution.
 
----
+--
 
-## ⚠️ **Disclaimer**
-
-**This project is strictly for educational purposes only.**  
-**Do NOT deploy on real networks without proper authorization.**
-
----
-
-## 👨‍💻 **Author**
-
-**Nayyab Gul and Laiba Naeem**  
-*Cybersecurity & Software Engineering Project*
+**Cybersecurity & Software Engineering Project**
 
 
 
